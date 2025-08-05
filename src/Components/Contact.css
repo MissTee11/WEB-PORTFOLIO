@@ -1,0 +1,90 @@
+.popup{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #A78D78;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: opacity 0.3s ease-in-out;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #21160b;
+    margin-top: 20px;
+    width: 100%;
+
+}
+form {
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 25px 30px;
+    color: #e1d4c2;
+    margin: 10px;
+}
+.contactDet{
+    width: 40%;
+    color:#BEB5A9;
+   
+}
+.contactDet a{
+    text-decoration: none;
+    color: #E1D4C2;
+    background-color: #6E473B;
+    border-radius: 12px;
+    font-size: 15px ;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.contactDet h2{
+    color: #e1d4c2;
+}
+.input-box{
+    margin-top: 20px;
+    
+}
+.input-field{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #6E473B;
+    color:#e1d4c2;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.message-field{
+    height: 150px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid #6E473B;
+    color:#e1d4c2;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.submitBtn{
+    color: #E1D4C2;
+    background-color: #6E473B;
+    border-radius: 8px;
+    font-size: 15px ;
+    font-weight: 500;
+    padding: 10px 20px;
+    width: 50%;
+ 
+}
+
+@media screen and (max-width:767px){
+    #contact{
+        flex-direction: column;
+    }
+    .contactDet{
+      text-align: center;
+    }
+    .contactDet p{
+        text-align: left;
+      }
+    }

@@ -1,0 +1,45 @@
+.project{
+    display: flex;
+    color: #BEB5A9;
+  
+}
+.projects h2{
+    color: #E1D4C2;
+    text-align: center;
+    font-size: 40px;
+}
+.Card{
+    background: linear-gradient(
+            60deg,
+                #21160b 0%,
+                #6e473b 90%);
+    padding: 20px;
+    border-radius: 12px; 
+    width: 40%;
+    margin: auto;
+
+}
+.Card:hover{
+    cursor: pointer;
+}
+.gitRepo{
+    text-decoration: none;
+    color: #E1D4C2;
+    background-color: #6E473B;
+    border-radius: 12px;
+    font-size: 15px ;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+@media  (max-width: 767px) {
+   .Card{
+    height: 300px;
+    width: 80%;
+    margin:20px;
+    height: 350px;
+   }
+   .project{
+    flex-direction:column-reverse;
+   }
+}
