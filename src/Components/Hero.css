@@ -39,7 +39,7 @@
     box-shadow: 0 0 4px #e1d4c2;
 }
 .contactBtn:hover{
-    transform: rotate(10deg);
+    cursor: pointer;
 }
 
 .rightBlur{

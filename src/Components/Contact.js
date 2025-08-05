@@ -52,7 +52,7 @@ function Contact(){
             <div className="contactDet">
             <h2>Get In Touch</h2>
             <p>Have questions or want to collaborate? Fill out the form to send me an email!</p>
-            <a href="/CV.pdf" download="Tariro_CV">Download My CV</a>
+            <a href="/TarieCV 2024.pdf" download="Tariro_CV">Download My CV</a>
             </div>
 
 

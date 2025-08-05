@@ -38,8 +38,17 @@
     width: 80%;
     margin:20px;
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    }
    .project{
     flex-direction:column-reverse;
+   }
+   .gitRepo{
+    width: 50px;
+   }
+   form{
+    
    }
 }

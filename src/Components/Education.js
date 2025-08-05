@@ -32,19 +32,6 @@ function MyEducation(){
 
             </div>
 
-            <div className="education">
-                <h3>High School Dilpoma</h3>
-                <p><strong>School:</strong>Wise Owl Secondary School</p>
-                <p><strong>Graduation Year:</strong> 2021</p>
-                <p><strong>Highlights:</strong></p>
-                <ul>
-                    <li>Headgirl: leadership, communication and team work skills</li>
-                    <li>Studied Mathematics, Physics, Chemistry and Accounting</li>
-                    <li>Active Participation in public speaking</li>
-                </ul>
-
-            </div>
-
         </div>
     )
 }
