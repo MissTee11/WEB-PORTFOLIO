@@ -1,0 +1,27 @@
+.eduTitle{
+    color: #E1D4C2;
+    text-align: center;
+    font-size: 40px;
+}
+.education{
+    color: #BEB5A9;
+    background: linear-gradient(
+        90deg,
+           #21160b 50%,
+         #6E473B 100%);
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.gitRepo{
+    text-decoration: none;
+    color: #E1D4C2;
+    background-color: #6E473B;
+    border-radius: 12px;
+    font-size: 15px ;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+

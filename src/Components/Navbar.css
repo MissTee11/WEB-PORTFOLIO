@@ -1,0 +1,74 @@
+.NavigationBar{
+    color: #E1D4C2;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index:2;
+}
+.title{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #E1D4C2;
+    padding-top: 10px;
+}
+.menu{
+    display: flex;
+}
+.menuItems{
+    display: flex;
+    gap:50px;
+    list-style: none;
+}
+.menuItems a{
+    font-size: 25px;
+    color: #E1D4C2;
+    text-decoration: none;
+}
+.menuItems a:hover{
+    color: #8a8278;
+    transition: 0.3s ease-in-out;
+}
+
+.menuBtn {
+    display: none;
+  }
+
+@media screen and (max-width: 767px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu{
+        position: absolute;
+        right:0;
+        margin-right: 5%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap:10px;
+        z-index:3;
+    }
+    .menuBtn{
+        display: block;
+        cursor: pointer;
+    }
+    .menuItems{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap:15px;
+        border-radius: 12px;
+        background-color: #A78D78;
+        background: linear-gradient(
+            0deg,
+             #6e473b 0%,
+             #21160b 100%);
+        padding: 30px 35px;
+        box-shadow: 0 0 4px #e1d4c2;
+    }
+    .menuOpen{
+        display: flex;
+        z-index: 1;
+    }
+}
