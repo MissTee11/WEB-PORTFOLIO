@@ -12,9 +12,9 @@ function About(){
             
             <div className="About">
             <h2 className="aboutTitle">ABOUT</h2>
-                <p>I am a second year computer engineering student studying abroad at Sakarya<br/>  University in Türkiye. I am passionate
-                    about web technology and front-end development.<br/>  I specialize in creating interactive
-                    responsive user interfaces. Using tools like React.js,<br/> Redux,CSS and HTML.
+                <p>I am a third year computer engineering student studying abroad at Sakarya<br/>  University in Türkiye. I am passionate
+                    about web technology and full-stack development.<br/>  I specialize in creating interactive
+                    responsive user interfaces. Using tools like React.js,<br/> Redux,CSS and HTML for frontend and Node.js and Postgresql for backend.<br/>
                     I enjoy exploring innovative ways to enhance user experiences and expand my knowledge of 
                     modern web technologies.
               
