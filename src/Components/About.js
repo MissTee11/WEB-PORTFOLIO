@@ -17,7 +17,6 @@ function About(){
                     responsive user interfaces. Using tools like React.js,<br/> Redux,CSS and HTML for frontend and Node.js and Postgresql for backend.<br/>
                     I enjoy exploring innovative ways to enhance user experiences and expand my knowledge of 
                     modern web technologies.
-              
                 </p>
                 </div>
                
