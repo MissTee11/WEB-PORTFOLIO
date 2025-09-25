@@ -12,11 +12,17 @@ function About(){
             
             <div className="About">
             <h2 className="aboutTitle">ABOUT</h2>
-                <p>I am a third year computer engineering student studying abroad at Sakarya<br/>  University in Türkiye. I am passionate
-                    about web technology and full-stack development.<br/>  I specialize in creating interactive
-                    responsive user interfaces. Using tools like React.js,<br/> Redux,CSS and HTML for frontend and Node.js and Postgresql for backend.<br/>
-                    I enjoy exploring innovative ways to enhance user experiences and expand my knowledge of 
-                    modern web technologies.
+                 <p>I am a third-year Computer Engineering student studying abroad at Sakarya 
+                    University in Türkiye. I am passionate about web technology, full-stack 
+                    development, and embedded systems.<br/>
+                    I specialize in creating interactive and responsive user interfaces using 
+                    tools like React.js, Redux, CSS, and HTML on the frontend, and Node.js with 
+                    PostgreSQL on the backend.<br/>
+                    Beyond software, I have hands-on experience with hardware projects, working 
+                    with ESP32, Arduino, and nRF52840 (Nice!Nano) to integrate sensors, enable 
+                    Bluetooth communication, and build IoT solutions.<br/>
+                    I enjoy exploring innovative ways to enhance user experiences, connect 
+                    software with hardware, and expand my knowledge of modern technologies.
                 </p>
                 </div>
                
