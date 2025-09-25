@@ -4,6 +4,19 @@ function MyEducation(){
     return(
         <div id="education">
            <h2 className="eduTitle">Education & Experience</h2>
+           
+           <div className="education">
+                <h3>Bachelor of Computer Engineering</h3>
+                <p><strong>University:</strong>Sakarya University</p>
+                <p><strong>Year:</strong>2022-Present</p>
+                <p><strong>Key Coursework:</strong>Web Technologies, Database Management Systems, Data Structures</p>
+                <p><strong>Course Projects:</strong></p>
+                <ul>
+                    <li>Developed a basic portfolio in Web Technologies using CSS,HTML, Javascript and Vue.js</li>
+                    <li>Developed a hospital management system using React.js, Node.js and PostgreSQL</li>
+                </ul>
+
+            </div>
             <div className="education">
                 <h3>Web Development Training Program</h3>
                 <p><strong>Company: </strong>Dure Technologies</p>
@@ -19,16 +32,14 @@ function MyEducation(){
 
             </div>
 
-            <div className="education">
-                <h3>Bachelor of Computer Engineering</h3>
-                <p><strong>University:</strong>Sakarya University</p>
-                <p><strong>Year:</strong>2022-Present</p>
-                <p><strong>Key Coursework:</strong>Web Technologies, Database Management Systems, Data Structures</p>
-                <p><strong>Course Projects:</strong></p>
-                <ul>
-                    <li>Developed a basic portfolio in Web Technologies using CSS,HTML, Javascript and Vue.js</li>
-                    <li>Developed a hospital management system using React.js, Node.js and PostgreSQL</li>
-                </ul>
+             <div className="education">
+                <h3>Computer Hardware Internship</h3>
+                <p><strong>Company: </strong>Bytemounts</p>
+                <p><strong>Duration: </strong>June 2025- July 2025</p>
+                <p><strong>Description: </strong>During my internship, I explored embedded systems through practical projects. I worked with ESP32 and nRF52840(Nice!Nano),<br/>
+                implementing sensor integration, data exchange, and Bluetooth-controlled hardware. My final project involved controlling the onboard LED of Nice!Nano via <br/>
+                BLE UART commands from a phone. This internship strengthened my skills in C/C++ programming for microcontrollers, wireless communication, and real-time <br/>
+                debugging, and gave me confidence in transforming ideas into working prototypes.            </p>
 
             </div>
 
